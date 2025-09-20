@@ -1,0 +1,27 @@
+{
+  "name": "accessibility-friendly-modal-form",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "check": "biome check"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@radix-ui/react-visually-hidden": "^1.2.3",
+    "modern-normalize": "^3.0.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-hook-form": "^7.63.0",
+    "zod": "^4.1.9"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.2",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2"
+  }
+}

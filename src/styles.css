@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+.dialog-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dialog-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  max-width: 500px;
+  width: 90vw;
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
+.dialog-title {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+}
+
+.dialog-description {
+  margin: 0 0 20px 0;
+}
+
+.dialog-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  margin-bottom: 5px;
+}
+
+.form-input,
+.form-textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  outline: 2px solid blue;
+}
+
+.form-input.error,
+.form-textarea.error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9em;
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+.modal-scroll-test {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+.modal-info-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #eee;
+}
+
+.result-card {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+.result-item {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.result-label {
+  min-width: 80px;
+  font-weight: bold;
+}
